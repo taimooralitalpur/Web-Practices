@@ -1,0 +1,51 @@
+* {
+    font-family: 'Courier New';
+}
+h1 {
+    color: aqua;
+}
+h3 {
+    color: black;
+}
+#login {
+    background-color: gray;
+}
+#signup {
+    background-color: aqua;
+}
+.upvote {
+    background-color: blueviolet;
+    color: wheat;
+}
+ /* Decentant selector */
+ .post a {
+    color: #1b74e4;
+}
+nav ul li a {
+    color: pink;
+}
+/* Ajecent sibling combinator */
+p + h3 {
+    text-decoration: underline;
+}
+.upvote + button {
+    background-color: cornflowerblue;
+}
+/* child combinator */
+div > input {
+    background-color: cadetblue;
+}
+/* Attributer selector */
+input[type="text"] {
+    color: red;
+}
+input[type="password"] {
+    color: blue;
+}
+input[type] {
+    background-color: ghostwhite;
+}
+
+#myid p {
+    color: green;
+}
