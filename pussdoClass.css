@@ -49,3 +49,32 @@ input[type] {
 #myid p {
     color: green;
 }
+
+/* pussdo class */
+button:hover {
+    background-color: black;
+    color: white;
+}
+button:active {
+    background-color: aquamarine;
+    color: black;
+}
+p:active {
+font-weight: bold;
+color: green;
+}
+input[type="radio"]:checked + label {
+font-weight: bold;
+color: red;
+}
+
+/* pussdo element */
+h1::first-letter {
+    color: black;
+}
+p::first-line {
+color: purple;
+}
+p::selection {
+    background-color: rgb(228, 209, 40);
+}
