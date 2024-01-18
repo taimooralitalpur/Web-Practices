@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+.card-header {
+    text-align: center;
+}
+.card-title {
+    text-align: center;
+    color: black;
+}
+.card-text {
+    text-align: center;
+    color: black;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
